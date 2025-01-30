@@ -1,0 +1,13 @@
+flask
+numpy
+dice-ml
+pandas==2.2.3
+flask_cors
+pymongo
+tensorflow
+scikit-learn
+joblib
+tqdm
+pytorch_tabnet
+lime
+xgboost

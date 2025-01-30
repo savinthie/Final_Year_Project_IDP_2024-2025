@@ -1,0 +1,7 @@
+Step 1: VS CODE 2022 or VS CODE supporting C++ editor is needed for the full backend setup.
+Step 2: Setup a virtual environment.
+Step 3: Install the  requirements from the 'requirements.txt' file.
+Step 4: Run app.py file in 'flask_backend\app.py'
+Step 5: Verify if the server is running
+Step 6: Open 'src\App.js' using 'Open in integrated terminal option'
+Step 7: Insert 'npm start' in the terminal.
