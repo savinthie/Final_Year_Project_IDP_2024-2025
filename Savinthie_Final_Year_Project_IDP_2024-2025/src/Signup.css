@@ -1,0 +1,101 @@
+/*IIT Student ID: 20210181
+UOW ID: w1867427
+Project Title: SmartFIN - Microeconomic level household income sufficiency predictor using a hybrid deep learning approach with XAI
+Project Supervisor: Mr. Obhasha Priyankara
+Project Supervisee: S.H.S.V. Suwandaratna*/
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px; /* Add padding for smaller screens */
+  }
+  #login_signup{
+    color: #333;
+  }
+  .signup-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%; /* Ensure it doesn't get too wide on small screens */
+    color: #333;
+  }
+  
+  .signup-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+    color:white;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+  }
+  
+
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .signup-form {
+      padding: 20px;
+    }
+  
+    .signup-form h1 {
+      font-size: 1.8em;
+    }
+    .form-group input {
+      font-size:14px;
+    }
+    .signup-button {
+      font-size: 15px;
+      
+    }
+  }

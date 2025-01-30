@@ -1,0 +1,96 @@
+/*IIT Student ID: 20210181
+UOW ID: w1867427
+Project Title: SmartFIN - Microeconomic level household income sufficiency predictor using a hybrid deep learning approach with XAI
+Project Supervisor: Mr. Obhasha Priyankara
+Project Supervisee: S.H.S.V. Suwandaratna*/
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  box-shadow: 0 4px 8px 0 #005ebc, 0 6px 20px 0 #f3cf19;
+}
+
+.small-logo {
+  width: 200px;
+  height: auto;
+  padding-top:-20%;
+  margin-left:1%;
+}
+
+h1 {
+  color: #cbc9a3;
+  font-weight: 300;
+}
+
+h2{
+  color: #cbc9a3;
+  font-weight: 300;
+}
+.formDiv{
+  background-color: #005ebc;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10%;
+  width:auto;
+  margin-bottom: -10%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.results-list {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Align text to the left */
+  margin-top:10%;
+}
+
+.results-list li {
+  margin: 5px 0; /* Add some margin between list items */
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input, select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f3cf19;
+  color:#005ebc;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom:10%;
+  font-weight: 600;
+  align-self: center;
+}
+
+
+button:hover {
+  background-color: #cdae15;
+  color:#0e4e8f;
+}
+
+button:active {
+  background-color: #003d80;
+}
+
+button:focus {
+  outline: none;
+}
+
+.expenseViewBtn{
+margin-top:10%;
+}
